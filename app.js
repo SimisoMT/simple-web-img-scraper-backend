@@ -55,7 +55,7 @@ app.get("/", (req, res) =>{
                     
 
                     console.log(domain[0]+"/"+domain[1]+"/"+domain[2]+"/"+domain[3]+"/"+image);
-                    return domain[0]+"."+domain[1]+image;
+                    return domain[0]+"."+domain[1]+"."+domain[2]+image;
                                   
                   }else{
                     return image;
